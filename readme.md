@@ -20,11 +20,21 @@
 ### Installation
 `git clone https://github.com/codekerala/laravel-and-vue.js-spa-Recipe-Box.git`
 
-`laravel-and-vue.js-spa-Recipe-Box`
-
 `composer install`
 
 `npm install`
+
+`php artisan key:generate`
+
+`sudo chmod -R 777 storage bootstrap/cache`
+
+`Edit config/database.php and set charset=utf8 and collation=utf8_unicode_ci within mysql-section`
+
+`sudo cp .env.example .env`
+
+`Set up DB_* params in .env-file`
+
+`php artisan migrate`
 
 ### On Youtube
 
